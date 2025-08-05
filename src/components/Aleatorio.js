@@ -5,7 +5,7 @@ import Estilo from './estilo';
 export default props => {
     const { min, max } = props
     const delta = max - min + 1;
-    const aleatorio = parseInt(Math.random() * delta) + min
+    const aleatorio = parseInt(Math.random() * delta) + min;
 
     return (
         <Text style={Estilo.fontMedia}>

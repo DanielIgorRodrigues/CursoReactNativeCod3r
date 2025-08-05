@@ -1,7 +1,9 @@
 import React from 'react';
 import { View, StatusBar, Platform, StyleSheet} from 'react-native';
 
-import Aleatorio from './components/Aleatorio';
+import Botao from './components/Botao';
+//import Titulo from './components/Titulo';
+//import Aleatorio from './components/Aleatorio';
 // import MinMax from './components/MinMax';
 // import CompoPadrao, { Comp1, Comp2 } from './components/Multi';
 // import Primeiro from './components/Primeiro';
@@ -11,8 +13,11 @@ import Aleatorio from './components/Aleatorio';
 export default () => (
     <View style={style.App}>
 
-        <Aleatorio min={5} max={100}/>
-        {/* <MinMax min={3} max={20}/>
+        <Botao />
+        {/* <Titulo principal="Cadastro" 
+            secundario="Tela de Cadastro"/>
+         <Aleatorio min={5} max={100}/>
+        <MinMax min={3} max={20}/>
         <MinMax min={3} max={20}/>
         <CompoPadrao />
         <Comp1 />
