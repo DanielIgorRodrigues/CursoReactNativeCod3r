@@ -1,0 +1,20 @@
+{
+    "Componente Funcional": {
+        "scope": "javascript",
+        "prefix": "compfunc",
+        "body": [
+            "import React, { Fragment } from 'react'",
+            "import { Text, View } from 'react-native'",
+            "import Estilo from './estilo'",
+            "",
+            "export default props => {",
+            "    return (",
+            "        <Text style={Estilo.fontGrande}>",
+            "            $1",
+            "        </Text>",
+            "    )",
+            "}"
+        ],
+        "description": "Template para facilitar a inclusão de novas atividade"
+    }
+}
